@@ -44,11 +44,11 @@ Navigate to the source tree and apply the patch:
 
 1. Dry run to confirm any errors:
 
-    patch -p1 --dry-run < ../patches/touchpad-patch.patch
+       patch -p1 --dry-run < ../patches/touchpad-patch.patch
 
 2. Success. Now patch:
 
-    patch -p1 < ../patches/touchpad-patch.patch
+        patch -p1 < ../patches/touchpad-patch.patch
 
 
 Now, proceed as shown below:
